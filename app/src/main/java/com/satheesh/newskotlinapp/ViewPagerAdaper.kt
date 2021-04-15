@@ -1,17 +1,22 @@
 package com.satheesh.newskotlinapp
 
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_page.view.*
+import kotlinx.android.synthetic.main.news_layout.*
 import kotlinx.android.synthetic.main.news_layout.view.*
 
 
 class ViewPagerAdaper(val titleAL: ArrayList<String>,val descAL: ArrayList<String>,val  headAL: ArrayList<String>,val imagesAL: ArrayList<String>,val newsAL: ArrayList<String>): RecyclerView.Adapter<PagerVH>() {
+
+
 
 
     //array of colors to change the background color of screen
@@ -48,6 +53,8 @@ class ViewPagerAdaper(val titleAL: ArrayList<String>,val descAL: ArrayList<Strin
 
 
     }
+
 }
 
 class PagerVH(itemView: View) : RecyclerView.ViewHolder(itemView)
+
