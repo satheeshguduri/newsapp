@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243010327926",
+    "project_id": "api-project-243010327926",
+    "storage_bucket": "api-project-243010327926.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243010327926:android:82ab824cb1939f63fd5657",
+        "android_client_info": {
+          "package_name": "com.satheesh.newskotlinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243010327926-qe5uegibdarabo15v0do2470snpe0qt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFRjRV274G3US-OQeTOTfqPJnun2WPu6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243010327926-qe5uegibdarabo15v0do2470snpe0qt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
