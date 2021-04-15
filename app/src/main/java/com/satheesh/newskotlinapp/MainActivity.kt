@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 var  data :  Iterable<DataSnapshot> = dataSnapshot.children
-                //  Log.v("####",  data.count().toString())
 
                 for (item  in data){
                     Log.v("####",  item.value.toString())
